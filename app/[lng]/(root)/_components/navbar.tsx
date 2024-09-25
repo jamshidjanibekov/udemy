@@ -5,7 +5,7 @@ import Link from "next/link";
 import {Button} from "@/components/ui/button";
 import ModeToggle from "@/components/shared/mode-toggle";
 import {ShoppingCart} from "lucide-react";
-import GlobalSearch from "@/app/(root)/_components/global-search";
+import GlobalSearch from "@/app/[lng]/(root)/_components/global-search";
 import LanguageDropdown from "@/components/shared/language-dropdown";
 
 const Navbar = () => {

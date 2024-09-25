@@ -1,7 +1,6 @@
 import React from 'react';
 import {ChildProps} from "@/types";
-import Navbar from "@/app/(root)/_components/navbar";
-
+import Navbar from "@/app/[lng]/(root)/_components/navbar";
 const Layout = ({children}:ChildProps) => {
   return (
     <div>
