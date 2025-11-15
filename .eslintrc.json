@@ -1,9 +1,12 @@
 {
-  "extends": [
-    "next/typescript",
-    "next/core-web-vitals",
-    "standard",
-    "plugin:tailwindcss/recommended",
-    "prettier"
-  ]
+	"extends": [
+		"next/typescript",
+		"next/core-web-vitals",
+		"standard",
+		"plugin:tailwindcss/recommended",
+		"prettier"
+	],
+	"rules": {
+		"@typescript-eslint/no-require-imports": "off"
+	}
 }
