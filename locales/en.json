@@ -1,5 +1,5 @@
 {
-  	"navLink1": "Home",
+	"navLink1": "Home",
 	"navLink2": "Courses",
 	"navLink3": "Blogs",
 	"navLink4": "Contact",
@@ -84,5 +84,6 @@
 	"minutes": "minutes",
 	"numberOfModules": "Modules",
 	"numberOfLessons": "Lessons",
-	"courseDuration": "Course duration"
+	"courseDuration": "Course duration",
+	"youMayLike": "You May Like"
 }

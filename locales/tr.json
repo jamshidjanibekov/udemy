@@ -1,5 +1,5 @@
 {
-  "navLink1": "Anasayfa",
+	"navLink1": "Anasayfa",
 	"navLink2": "Kurslar",
 	"navLink3": "Bloglar",
 	"navLink4": "İletişim",
@@ -84,5 +84,6 @@
 	"minutes": "dakika",
 	"numberOfModules": "Modül sayısı",
 	"numberOfLessons": "Ders sayısı",
-	"courseDuration": "Kurs süresi"
+	"courseDuration": "Kurs süresi",
+	"youMayLike": "Beğenebilirsin"
 }
