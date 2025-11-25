@@ -68,9 +68,7 @@ function Footer() {
 
 							<div className='flex items-center space-x-3'>
 								<MapPin size={20} />
-								<span className='text-sm'>
-									Ronda de Elburg 30008 Geleen Niderlandia
-								</span>
+								<span className='text-sm'>Urganch, Xorazm Viloyati</span>
 							</div>
 						</div>
 					</div>

@@ -19,7 +19,7 @@ export const navLinks = [
 	{ route: '/', name: 'navLink1', icon: Home },
 	{ route: 'courses', name: 'navLink2', icon: ListVideo },
 	{ route: 'blogs', name: 'navLink3', icon: Rss },
-	{ route: 'contact', name: 'navLink4', icon: Contact },
+	{ route: 'contacts', name: 'navLink4', icon: Contact },
 ]
 export const lngs = [
 	{ route: 'en', label: 'English' },
@@ -63,7 +63,7 @@ export const courses = [
 		title: 'JavaScript',
 		level: 'Beginner',
 		previewImage:
-			'https://sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F35ca3db9-fb43-4f12-bd48-8b08a503db09-kilwwj.png&w=1920&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Fqk9g5hsrut.ufs.sh%2Ff%2Fxu965PmyvPo01pCyzWVJWIAxq9EjKgNoL7zftvlDbOmru0H2&w=1920&q=75&dpl=dpl_9sBEKp6Vtq4rX75YeLkgkG6tPcnw',
 		author: {
 			image:
 				'https://blog.sammi.app/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FKmuGvX9oRjYkG3bzttvc&w=1920&q=75',
@@ -76,7 +76,7 @@ export const courses = [
 		title: 'ReactJS',
 		level: 'Intermidate',
 		previewImage:
-			'https://sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fa8573b7c-95b2-4459-8414-8eacde874b0a-kilwdl.png&w=1920&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Fqk9g5hsrut.ufs.sh%2Ff%2Fxu965PmyvPo0iUp6fYhocXUlvFEwuZWOT81zHSksDrGxN4f9&w=1920&q=75&dpl=dpl_9sBEKp6Vtq4rX75YeLkgkG6tPcnw',
 		author: {
 			image:
 				'https://blog.sammi.app/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FKmuGvX9oRjYkG3bzttvc&w=1920&q=75',
@@ -89,7 +89,7 @@ export const courses = [
 		title: 'VueJS',
 		level: 'Intermidate',
 		previewImage:
-			'https://sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fbddfc919-2260-46dd-a078-b956bd9a377c-kilwcq.png&w=1920&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Fqk9g5hsrut.ufs.sh%2Ff%2Fxu965PmyvPo0pJtmiWIV0jo2XA16Ydy4rSfwLIiRxv98gOuk&w=1920&q=75&dpl=dpl_9sBEKp6Vtq4rX75YeLkgkG6tPcnw',
 		author: {
 			image:
 				'https://blog.sammi.app/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FKmuGvX9oRjYkG3bzttvc&w=1920&q=75',
@@ -102,7 +102,7 @@ export const courses = [
 		title: 'Telegram BOT',
 		level: 'Intermidate',
 		previewImage:
-			'https://sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F1662922d-b61d-401b-aa1a-693a6231d8a0-kilw9a.png&w=1920&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Fqk9g5hsrut.ufs.sh%2Ff%2Fxu965PmyvPo0FM6vDAPKdjJrMesifW4Gtho7ID1zXTlQ025w&w=1920&q=75&dpl=dpl_9sBEKp6Vtq4rX75YeLkgkG6tPcnw',
 		author: {
 			image:
 				'https://blog.sammi.app/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FKmuGvX9oRjYkG3bzttvc&w=1920&q=75',
@@ -115,7 +115,7 @@ export const courses = [
 		title: 'React Native',
 		level: 'Intermidate',
 		previewImage:
-			'https://sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F27f17594-ae28-4fe1-86ce-964a5c89c78d-kilw7k.png&w=1920&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Fqk9g5hsrut.ufs.sh%2Ff%2Fxu965PmyvPo0UVXRCCHlS4Qy1xdrtYVH8eZKj5upDiUCm7hs&w=1920&q=75&dpl=dpl_9sBEKp6Vtq4rX75YeLkgkG6tPcnw',
 		author: {
 			image:
 				'https://blog.sammi.app/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FKmuGvX9oRjYkG3bzttvc&w=1920&q=75',
@@ -128,7 +128,7 @@ export const courses = [
 		title: 'Foundation',
 		level: 'Intermidate',
 		previewImage:
-			'https://sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fbcdfb541-3300-430f-b8b2-ff0fb57df056-kilw6p.png&w=1920&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Fqk9g5hsrut.ufs.sh%2Ff%2Fxu965PmyvPo00Gmjkh79cpx21MsQhvWPLIgeAHGwlaumbU8j&w=1920&q=75&dpl=dpl_9sBEKp6Vtq4rX75YeLkgkG6tPcnw',
 		author: {
 			image:
 				'https://blog.sammi.app/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FKmuGvX9oRjYkG3bzttvc&w=1920&q=75',

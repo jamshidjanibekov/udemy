@@ -12,7 +12,7 @@ import Image from 'next/image'
 import { lngs } from '@/constants'
 import Link from 'next/link'
 import { cn, getCurrentLng } from '@/lib/utils'
-import { useParams } from 'next/navigation'
+import { useParams, usePathname } from 'next/navigation'
 
 interface Props {
 	isMobile?: boolean
@@ -20,6 +20,7 @@ interface Props {
 
 const LanguageDropdown = ({ isMobile = false }: Props) => {
 	const { lng } = useParams()
+	const pathname = usePathname()
 	return (
 		<div>
 			<DropdownMenu>
@@ -42,7 +43,10 @@ const LanguageDropdown = ({ isMobile = false }: Props) => {
 				<DropdownMenuContent asChild>
 					<DropdownMenuGroup>
 						{lngs.map((item) => (
-							<Link key={item.route} href={`/${item.route}`}>
+							<Link
+								key={item.route}
+								href={`/${item.route}/${pathname.slice(4)}`}
+							>
 								<DropdownMenuItem
 									className={cn(
 										`cursor-pointer`,

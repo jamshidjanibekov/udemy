@@ -8,13 +8,17 @@ const CourseCard = (course: ICourse) => {
 	return (
 		<Link href={'/courses/reactjs'}>
 			<Card className='group w-full'>
-				<CardContent>
-					<Image
-						fill
-						src={course.previewImage}
-						alt={course.title}
-						className='object-cover'
-					/>
+				<CardContent className='p-0'>
+					<div className='relative h-48 w-full overflow-hidden'>
+						<Image
+							src={course.previewImage}
+							alt={course.title}
+							fill
+							className='rounded-t-md object-cover'
+							sizes='(max-width: 768px) 100vw, 33vw'
+							quality={90}
+						/>
+					</div>
 				</CardContent>
 				<div className='my-4 flex flex-col space-y-2 px-2'>
 					<h2 className='line-clamp-1 font-space-grotesk text-2xl font-bold'>
