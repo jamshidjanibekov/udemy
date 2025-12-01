@@ -27,7 +27,7 @@ const Page = () => {
 
 			<div className='mt-4 grid grid-cols-3 gap-4'>
 				{courses.map((course) => (
-					<InstructorCourseCard key={course.title} {...course} />
+					<InstructorCourseCard key={course.title} course={JSON.parse(JSON.stringify(course))} />
 				))}
 			</div>
 			<Header title='Reviews' description='Here are your latest reviews' />
