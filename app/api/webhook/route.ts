@@ -1,3 +1,7 @@
+export const dynamic = 'force-dynamic'
+export const runtime = 'nodejs'
+export const revalidate = 0
+
 /* eslint-disable camelcase */
 import { headers } from 'next/headers'
 import { WebhookEvent } from '@clerk/nextjs/server'
