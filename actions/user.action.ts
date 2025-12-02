@@ -6,7 +6,7 @@ import User from '@/database/user.model'
 
 export const createUser = async (data: ICreateUser) => {
 	try {
-		await connectToDatabase
+		await connectToDatabase()
 		const { clerkId, fullName, email, picture } = data
 		const isExist = await User.findOne({ clerkId })
 
@@ -27,7 +27,7 @@ export const createUser = async (data: ICreateUser) => {
 
 export const updateUser = async (data: IUpdateUser) => {
 	try {
-		await connectToDatabase
+		await connectToDatabase()
 		const { clerkId, updatedData } = data
 		const updatedUser = await User.findOneAndUpdate({ clerkId }, updatedData, {
 			new: true,
