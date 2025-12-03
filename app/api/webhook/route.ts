@@ -1,7 +1,3 @@
-export const dynamic = 'force-dynamic'
-export const runtime = 'nodejs'
-export const revalidate = 0
-
 /* eslint-disable camelcase */
 import { headers } from 'next/headers'
 import { WebhookEvent } from '@clerk/nextjs/server'
@@ -27,8 +23,7 @@ export async function POST(req: Request) {
 		return new Response('Error occured -- no svix headers', { status: 400 })
 	}
 
-	const payload = await req.json()
-	const body = JSON.stringify(payload)
+	const body = await req.text()
 
 	const wh = new Webhook(WEBHOOK_SECRET)
 
@@ -76,4 +71,5 @@ export async function POST(req: Request) {
 
 		return NextResponse.json({ message: 'OK', user })
 	}
+	return new Response('', { status: 200 })
 }
